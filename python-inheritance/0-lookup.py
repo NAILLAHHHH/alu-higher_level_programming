@@ -3,6 +3,5 @@
 
 
 def lookup(obj):
-        '''Take an object and return its atts and methods'''
-            return list(dir(obj))
-
+    '''Take an object and return its atts and methods'''
+    return list(dir(obj))
